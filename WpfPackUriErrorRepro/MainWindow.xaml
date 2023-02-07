@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="250" Width="400">
     <Grid>
-        <Image Stretch="None" VerticalAlignment="Center" HorizontalAlignment="Center" Source="/StarColor.png" />
+        <Image Stretch="None" Source="/StarColor.png" />
 
     </Grid>
 </Window>
