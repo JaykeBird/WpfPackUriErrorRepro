@@ -2,21 +2,22 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows10.0.19041.0</TargetFramework>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
-	  <RuntimeIdentifiers>win10-x64</RuntimeIdentifiers>
-      <!--<ShouldComputeInputPris>true</ShouldComputeInputPris>-->
+	  <RuntimeIdentifiers>win-x64;win-arm64;win-x86</RuntimeIdentifiers>
+      <WindowsPackageType>None</WindowsPackageType>
+      <ShouldComputeInputPris>true</ShouldComputeInputPris>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="SmileyColor.png" />
     <None Remove="StarColor.png" />
   </ItemGroup>
-
-  <ItemGroup>
+    
+  <!--<ItemGroup>
     <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.5.240428000" />
-  </ItemGroup>
+  </ItemGroup>-->
 
   <ItemGroup>
     <Resource Include="SmileyColor.png" />
