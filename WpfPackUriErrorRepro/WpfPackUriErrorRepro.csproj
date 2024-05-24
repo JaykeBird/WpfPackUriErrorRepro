@@ -6,6 +6,7 @@
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
 	  <RuntimeIdentifiers>win10-x64</RuntimeIdentifiers>
+      <!--<ShouldComputeInputPris>true</ShouldComputeInputPris>-->
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.2.230118.102" />
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.5.240428000" />
   </ItemGroup>
 
   <ItemGroup>
